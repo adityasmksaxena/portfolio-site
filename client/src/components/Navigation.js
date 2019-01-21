@@ -13,16 +13,16 @@ const Navigation = () => (
         <NavLinkItem href="/" id={1}>
           home
         </NavLinkItem>
-        <NavLinkItem href="/" id={2}>
+        <NavLinkItem href="/about" id={2}>
           about
         </NavLinkItem>
-        <NavLinkItem href="/" id={3}>
+        <NavLinkItem href="/work" id={3}>
           work
         </NavLinkItem>
-        <NavLinkItem href="/" id={4}>
+        <NavLinkItem href="/contact" id={4}>
           contact
         </NavLinkItem>
-        <NavLinkItem href="/" id={5}>
+        <NavLinkItem href="/resume" id={5}>
           resume
         </NavLinkItem>
       </ul>
