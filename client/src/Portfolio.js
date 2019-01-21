@@ -1,5 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Navigation from "./components/Navigation";
 
-const Portfolio = () => "My Portfolio";
+const Portfolio = () => {
+  return (
+    <Fragment>
+      <Navigation />
+    </Fragment>
+  );
+};
 
 export default Portfolio;
