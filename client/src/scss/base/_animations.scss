@@ -1,22 +1,11 @@
-// .text {
-//   text-align: center;
-//   margin-top: 56px;
-//   color: #fff;
-//   font-size: 1em;
-//   font-family: sans-serif;
-//   text-transform: uppercase;
-// }
-
 .animated {
-  animation-duration: 2.5s;
+  animation-duration: 1s;
   animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  // -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+  animation-iteration-count: 1;
+  // animation-play-state: paused;
 }
 .animated:hover {
-  // -webkit-animation-play-state: running;
-  animation-play-state: running;
+  // animation-play-state: running;
 }
 
 @keyframes rubberBand {
