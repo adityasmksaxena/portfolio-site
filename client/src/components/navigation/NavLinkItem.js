@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavLinkItem = ({ href, children }) => (
   <li className="navigation__item">
-    <a className="navigation__link" href={href}>
+    <Link className="navigation__link" to={href}>
       {children}
-    </a>
+    </Link>
   </li>
 );
 

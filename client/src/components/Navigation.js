@@ -1,5 +1,6 @@
 import React from "react";
 import NavLinkItem from "./navigation/NavLinkItem";
+import { NAV_MENUS } from "../utils/constants";
 
 const Navigation = () => (
   <div className="navigation">
@@ -10,11 +11,11 @@ const Navigation = () => (
     <div className="navigation__background">&nbsp;</div>
     <nav className="navigation__nav">
       <ul className="navigation__list">
-        <NavLinkItem href="/">home</NavLinkItem>
-        <NavLinkItem href="/about">about</NavLinkItem>
-        <NavLinkItem href="/work">work</NavLinkItem>
-        <NavLinkItem href="/contact">contact</NavLinkItem>
-        <NavLinkItem href="/resume">resume</NavLinkItem>
+        {NAV_MENUS.map(item => (
+          <NavLinkItem key={item.text} href={item.href}>
+            {item.text}
+          </NavLinkItem>
+        ))}
       </ul>
     </nav>
   </div>

@@ -45,3 +45,5 @@ client/yarn-debug.log*
 client/yarn-error.log*
 
 client/.gitignore
+
+.vscode/

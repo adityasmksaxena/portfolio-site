@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./scss/index.scss";
-import MyPortfolio from "./Portfolio";
+import MyPortfolio from "./layout/Portfolio";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(<MyPortfolio />, document.getElementById("root"));

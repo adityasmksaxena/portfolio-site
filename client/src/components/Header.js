@@ -1,15 +1,30 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Typing, { Reset } from "react-typing-animation";
 
+const delayMs = 3000;
 const Header = () => (
   <header className="header">
     <div className="header__text-box">
       <h1 className="heading-primary">
         <span className="heading-primary--main">aditya saxena</span>
-        <span className="heading-primary--sub">web developer</span>
+        <ul style={{ listStyle: "none", height: 40 }}>
+          <li>
+            <Typing loop speed={150}>
+              <span className="header__checkmark">&#10004;</span>
+              <span className="heading-primary--sub">student</span>
+              <Reset count={1} delay={delayMs} />
+              <span className="heading-primary--sub">software engineer</span>
+              <Reset count={1} delay={delayMs} />
+              <span className="heading-primary--sub">web developer</span>
+              <Reset delay={delayMs} />
+            </Typing>
+          </li>
+        </ul>
       </h1>
-      <a href="./game" className="btn btn--white btn--animated">
+      <Link to="/" className="btn btn--white btn--animated">
         Play Game
-      </a>
+      </Link>
     </div>
   </header>
 );

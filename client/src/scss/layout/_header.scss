@@ -9,6 +9,11 @@
   background-position: top;
   position: relative;
 
+  &__checkmark {
+    padding-right: 10px;
+    color: white;
+  }
+
   &__text-box {
     position: absolute;
     top: 40%;
