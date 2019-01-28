@@ -7,10 +7,13 @@ const Header = () => (
   <header className="header">
     <div className="header__text-box">
       <h1 className="heading-primary">
-        <span className="heading-primary--main">aditya saxena</span>
+        <span className="heading-primary--main animated pulse">
+          aditya saxena
+        </span>
         <ul style={{ listStyle: "none", height: 40 }}>
           <li>
             <Typing loop speed={150}>
+              <Reset count={0} />
               <span className="header__checkmark">&#10004;</span>
               <span className="heading-primary--sub">student</span>
               <Reset count={1} delay={delayMs} />
