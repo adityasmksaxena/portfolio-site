@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const NavLinkItem = ({ href, children }) => (
+const NavLinkItem = ({ href, handleLinkClick, children }) => (
   <li className="navigation__item">
-    <Link className="navigation__link" to={href}>
+    <Link to={href} className="navigation__link" onClick={handleLinkClick}>
       {children}
     </Link>
   </li>

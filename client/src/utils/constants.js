@@ -4,20 +4,20 @@ export const NAV_MENUS = [
     href: "/"
   },
   {
-    text: "about",
-    href: "/about"
+    text: "about me",
+    href: "/#aboutme"
   },
   {
-    text: "work",
-    href: "/work"
+    text: "my recent work",
+    href: "/#myrecentwork"
   },
   {
-    text: "contact",
-    href: "/contact"
+    text: "get in touch",
+    href: "/getintouch"
   },
   {
-    text: "resume",
-    href: "/resume"
+    text: "view resume",
+    href: "https://drive.google.com/open?id=1h2KP74cb7FBSkmj7MwMPQFMAFiGu7X6_"
   }
 ];
 
