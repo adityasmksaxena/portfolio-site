@@ -8,8 +8,8 @@ export const NAV_MENUS = [
     href: "/#aboutme"
   },
   {
-    text: "recent work",
-    href: "/#myrecentwork"
+    text: "recent projects",
+    href: "/#recent-projects"
   },
   {
     text: "get in touch",

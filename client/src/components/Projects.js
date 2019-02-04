@@ -15,7 +15,7 @@ const getCard = id => (
 );
 
 const Projects = () => (
-  <section className="section-tours" id="section-tours">
+  <section id="recent-projects" className="recent-projects">
     <div className="u-center-text u-margin-bottom-big">
       <h2 className="heading-secondary">My Recent Work</h2>
     </div>
