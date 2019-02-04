@@ -22,12 +22,16 @@ export const Card = ({ classId, project }) => (
     <div className={`card__side card__side--back card__side--back-${classId}`}>
       <div className="card__cta">
         <div className="card__project-box">
-          <a href={project.githubLink} className="card__project-link">
-            Github
-          </a>
-          <a href={project.deploymentLink} className="card__project-link">
-            Live
-          </a>
+          {project.githubLink && (
+            <a href={project.githubLink} className="card__project-link">
+              Github
+            </a>
+          )}
+          {project.deploymentLink && (
+            <a href={project.deploymentLink} className="card__project-link">
+              Live
+            </a>
+          )}
         </div>
       </div>
     </div>

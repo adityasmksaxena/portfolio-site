@@ -1,19 +1,19 @@
 export const NAV_MENUS = [
   {
     text: "home",
-    href: "/"
+    href: "/#home"
   },
   {
     text: "about me",
     href: "/#aboutme"
   },
   {
-    text: "my recent work",
+    text: "recent work",
     href: "/#myrecentwork"
   },
   {
     text: "get in touch",
-    href: "/getintouch"
+    href: "/#getintouch"
   },
   {
     text: "view resume",
